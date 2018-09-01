@@ -1,0 +1,25 @@
+page-perfil {
+  ion-content {
+    background-color: color($colors, primary) !important;
+  }
+
+  ion-content {
+    .scroll-content {
+      padding: 0 !important;
+      margin-bottom: 46px;
+    }
+
+    ion-grid {
+      padding: 0 !important;
+      justify-content: space-between;
+    }
+  }
+
+  .cupons-amount {
+    padding: 5px 35px;
+    button {
+      height: 4rem;
+      font-size: 1.6rem;
+    }
+  }
+}

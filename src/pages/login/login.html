@@ -1,0 +1,45 @@
+<ion-header no-border>
+  <ion-navbar>
+    <ion-title>LOGIN</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col text-center>
+        <h3>LOGIN</h3>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-list id="form">
+
+          <ion-item>
+            <ion-label>
+              <ion-icon name="mail" item-right></ion-icon>
+            </ion-label>
+            <ion-input type="text" placeholder="Email">
+            </ion-input>
+          </ion-item>
+
+          <ion-item>
+            <ion-label>
+              <ion-icon name="lock" item-right></ion-icon>
+            </ion-label>
+            <ion-input type="password" placeholder="Senha"></ion-input>
+          </ion-item>
+
+        </ion-list>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col text-center>
+        <button ion-button small color="light" (click)="goToPerfil()">Entrar</button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+</ion-content>

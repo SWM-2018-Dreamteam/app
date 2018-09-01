@@ -1,0 +1,35 @@
+page-login {
+  ion-content {
+    background-color: color($colors, primary) !important;
+  }
+
+  ion-grid {
+    height: 100%;
+    justify-content: center;
+  }
+
+  #form {
+    margin: 0;
+
+    ion-item {
+      border: 1px solid;
+      border-radius: 3px;
+      padding-left: 8px;
+      margin-bottom: 10px;
+      background: transparent;
+      .item-inner {
+        border: 0;
+
+        ion-label {
+          margin: 2px 0px 2px 0;
+        }
+      }
+    }
+  }
+
+  .input {
+    ::placeholder {
+      color: color($colors, light);
+    }
+  }
+}
